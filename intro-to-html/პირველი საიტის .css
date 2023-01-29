@@ -1,0 +1,187 @@
+
+.header{
+  cursor: pointer;
+  font-family: Roboto; 
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.searchbar{
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  font-size: 17px;
+  width: 160px;
+  transition: border-color, width, 0.5s;
+  background-color: rgba(32,32,32,255);
+  border-color:rgb(212, 210, 210);
+  margin-top: 15px;
+  color: white;
+}
+
+
+
+.logo-name{
+  height: 50px;
+  padding-top: 13px;
+  font-family: 'Aboreto', cursive;
+  font-weight: bold;
+}
+
+
+
+.name{
+  font-family: 'Aboreto', cursive;
+  font-weight: bold;
+}
+
+.logo-pichture{
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.searchbar:focus{
+  outline-style: none;
+  border-color: #ea944c;
+  width: 290px;
+}
+
+.link{
+  text-decoration: none;
+  color: #ea944c;
+}
+
+.კომპონენტები{
+  margin-left: 40px;
+}
+
+.აქსესუარები{
+  margin-left: 24px;
+}
+
+.monitors{
+  margin-left: 13px;
+}
+
+.audio{
+  margin-left: 10px;
+}
+
+.network{
+  margin-left: 10px;
+}
+
+.link:hover{
+  color: rgb(212, 210, 210);
+}
+
+.კომპონენტები:hover{
+  color: rgb(212, 210, 210);
+}
+
+.აქსესუარები:hover{
+  color: rgb(212, 210, 210);
+}
+
+.monitors:hover{
+  color: rgb(212, 210, 210);
+}
+
+.audio:hover{
+  color: rgb(212, 210, 210);
+}
+
+.network:hover{
+  color: rgb(212, 210, 210);
+}
+
+.title{
+  display: grid;
+  grid-template-columns: row;
+  color: black
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.conteiner{
+  display: flex;
+  justify-content:left;
+}
+
+.gallery{
+  margin-top: 50px;
+}
+
+.image{
+  width: 300px;
+  height: 300px;
+  text-align: left;
+
+}
+
+.product{
+  width: 300px;
+}
+
+.logo-name{
+  font-family: 'Kanit', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+
+.discription{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color: rgb(212, 210, 210);
+  font-family: 'Kanit', sans-serif;
+  margin-bottom: 10px;
+  height: 60px;
+  font-weight: 500;
+ 
+}
+
+.a{
+  margin-top: 12px;
+  margin-left: 17px;
+}
+
+.b{
+  margin-left: 17px;
+}
+
+.c{
+  margin-left: 17px;
+}
+
+.d{
+  margin-left: 17px;
+}
+
+.e{
+  margin-left: 17px;
+}
+
+.f{
+  margin-left: 17px;
+}
+
+.g{
+  margin-left: 17px;
+}
+
+.sidebar{
+  font-family: "BPG WEB 002 Caps", sans-serif;
+  src: url(bgp.ttf);
+}
+
+
+

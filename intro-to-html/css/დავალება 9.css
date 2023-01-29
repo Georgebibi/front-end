@@ -1,0 +1,64 @@
+.cat{
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+}
+.div{
+  display:inline-block;
+  border-style: solid;
+  width: 120px;
+  height: 210px;
+  text-align: center;
+  border: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: arial;
+  margin-right: 10px;
+  vertical-align: bottom;
+}
+.pepa{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+  margin-right: 80px;
+  font-size: 12px;
+  
+}
+
+.mutual{
+  margin-top: 2px;
+  font-size: 9.5px;
+  color: gray;
+  margin-right: 45px;
+  margin-top: 4px;
+}
+
+.add{
+  border: none;
+  background-color: rgb(39, 117, 207);
+  color: white;
+  border-radius: 2px;
+  text-align: center;
+  font-size: xx-small;
+  width: 65px;
+  height: 20px;
+margin-right: 50px;
+cursor: pointer;
+transition: opacity 0.2s;
+}
+
+.add:hover{
+  opacity: 0.8;
+}
+
+.add:active{
+  width: 60px;
+  height: 18px;
+}
+
+.rex{
+  width: 120px;
+  height: 120px;
+}
+
+
+

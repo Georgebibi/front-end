@@ -1,0 +1,127 @@
+*{
+  font-family: 'Montserrat', sans-serif; 
+}
+
+
+body{
+  background-color: rgba(32,32,32,255);
+  text-align: center;
+}
+
+
+.yvela{
+  margin-top: 200px;
+}
+
+.a{
+  margin-bottom: 15px;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  font-size: 18px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  transition: border-color 1.0s, width 0.5s;
+  background-color: rgba(32,32,32,255);
+  color: white;
+}
+
+
+.a:focus{
+  outline: none;
+  width: 300px;
+  border-color: #ea944c;
+}
+
+
+.b{
+  background-color: rgba(32,32,32,255);
+  margin-bottom: 15px;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  font-size: 18px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  transition: border-color 1.0s, width 0.5s;
+  color: white;
+}
+
+
+.b:focus{
+  outline: none;
+  width: 240px;
+  border-color: #ea944c;
+}
+
+
+.c{
+  background-color: rgba(32,32,32,255);
+  margin-bottom: 15px;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  transition: border-color 1.0s, width 0.5s;
+  font-size: 17px;
+  color: white;
+}
+
+
+.c:focus{
+  outline: none;
+  width: 240px;
+  border-color: #ea944c;
+}
+
+.d{
+  background-color: rgba(32,32,32,255);
+  padding: 10px;
+  font-family: "Roboto Mono",monospace;
+  color: #717171;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+::-webkit-calendar-picker-indicator{
+  background-color: #ea944c;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.btn{
+  margin-top: 15px;
+  padding: 5px 20px 5px 20px;
+  background-color: #ea944c;
+  cursor: pointer;
+  border-radius: 40px;
+  border-width: 1px;
+  transition: background-color 0.1s;
+  font-size: 20px;
+}
+
+
+
+.btn:active{
+  background-color: #eec3a0;
+}
+
+.footer{
+  color: white;
+}
+
+.login{
+  color: white;
+}

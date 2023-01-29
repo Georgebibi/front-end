@@ -1,0 +1,92 @@
+.header{
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 300px;
+}
+
+.left-section{
+  width: 150px;
+}
+
+.middle-section{
+  width: 520px;
+  display: grid;
+  grid-template-columns:1fr 50px;
+}
+
+.right-section{
+  width: 170px;
+}
+
+.hamburger{
+  height: 30px;
+  cursor: pointer;
+  margin-left: 10px;
+  vertical-align: top;
+  margin-top: 14px;
+}
+
+.live{
+  width: 50px;
+  margin-top: 2px;
+  cursor: pointer;
+  height: 45px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.notification{
+  width: 32px;
+  color: white;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.mylogo{
+  border-radius: 65%;
+  width: 35px;
+  margin-left: 25px;
+  margin-bottom: 6px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+.yt{
+  width: 100px;
+}
+
+.search{
+  width: 30px;
+}
+
+.youtube{
+  height: 20px;
+}
+
+.searchbar{
+  width: 520px;
+  height: 36px;
+  display: flex;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: thin;
+  padding-left: 20px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.searchbar:focus{
+  outline: none;
+  border-color: rgb(31, 80, 214);
+  box-shadow: 0.5px 0.5px 2px  black;
+}
+
+.search2{
+  height: 36px;
+  width: 40px;
+  display: flex;
+  position: absolute;
+  margin-left: 480px;
+}

@@ -1,0 +1,166 @@
+.btn-1{
+  background-color: rgb(198, 14, 14);
+  border: none;
+  color: white;
+  height: 35px;
+  width: 120px;
+  border-radius: 3px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-right: 5px;
+  cursor:pointer;
+  display: inline-block;
+}
+.btn-1:hover{
+  opacity: 0.75;
+  transition: 0.2s;
+}
+.btn-1:active{
+  opacity: 0.5;
+  transition: none;
+}
+.join{
+  background-color: white;
+  height: 35px;
+  width: 65px;
+  border-color: rgb(41, 118, 211);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  color: rgb(41, 118, 211);
+  margin-right: 5px;
+  cursor:pointer;
+}
+.join:hover{
+  background-color: rgb(6, 94, 201);
+  color: white;
+  transition: 0.3s;
+}
+.join:active{
+  opacity: 0.7;
+  transition: none;
+}
+.tweet{
+  height: 35px;
+  width: 80px;
+  border-radius: 18px;
+  background-color: #1d9bf0;
+  border:none;
+  color: white;
+  font-size: 15px;
+  cursor:pointer;
+  transition: box-shadow 0.15s;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.tweet:hover{
+  box-shadow: 0px 3px 7px rgb(189, 189, 189);
+}
+.tweet:active{
+  opacity: 0.7;
+}
+.uber{
+  height: 40px;
+  width: 120px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.uber:hover{
+  opacity: 0.8;
+  transition: 0.5;
+}
+.uber:active{
+  opacity:0.6;
+  transition: none;
+}
+.amazon{
+  width: 180px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(244, 221, 69);
+  font-weight: bold;
+  font-size: 14.5px;
+  cursor:pointer;
+}
+.amazon:hover{
+  background-color: rgb(244, 212, 0);
+}
+.back{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-right: 5px;
+}
+.next{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 5px;
+}
+.a{
+ margin-left:2px;
+ margin-right:2px;
+}
+.b{
+  margin-left:2px;
+  margin-right:2px;
+}
+.c{
+  margin-left:2px;
+  margin-right:2px;
+}
+.d{
+  margin-left:2px;
+  margin-right:2px;
+}
+.e{
+  margin-left:2px;
+  margin-right:2px;
+}
+.stretch{
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 8px;
+  padding-left: 8px;
+  margin-left: 5px;
+  font-size: 20px;
+  background-color: rgb(0, 124, 0);
+  border: none;
+  color:white;
+  cursor: pointer;
+}
+.stretch:hover{
+  padding-right: 55px;
+  padding-bottom: 35px;
+  transition: 0.5s;
+}
+.shadow{
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 8px;
+  padding-left: 8px;
+  font-size: 20px;
+  background-color: rgb(0, 124, 0);
+  border: none;
+  color:white;
+  cursor: pointer;
+  box-shadow: 3px 2px 5px rgb(118, 118, 118);
+}
+.shadow:hover{
+  opacity: 0.8;
+  transition: 0.2s;
+}
+.shadow:active{
+  opacity: 0.6;
+  margin-left: 4px;
+  margin-top: 3px;
+  transition: none;
+  box-shadow: none;
+}
+.batonebi{
+  display: inline-block;
+}
+.ufrobatonebi{
+  display: inline-block;
+}
